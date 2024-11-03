@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Russo One";
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+.lastPage {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+.lastPage p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lasta {
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+.lasta a{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+}

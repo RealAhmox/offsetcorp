@@ -1,0 +1,105 @@
+
+.div11 {
+    width: 25em;
+    height: 39em;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 25px black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: auto;
+}
+.div11 img{
+    width: 320px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.div11 p{
+    font-family: "Russo One";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.div11 a{
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 70px;
+    font-size:xx-large;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.div11 h1{
+    font-family: "Russo One";
+    text-align: center;
+}
+.containerProduct {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 3em;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0 40px;
+}
+.divSlova h1{
+    text-align: center;
+    font-size: 150px;
+    margin-top: 35px;
+}
+.naslov span{
+    font-size: 150px;
+    margin-left: 28%;
+    margin-top: 35%;
+}
+.div11 h4{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.div11 hr{
+    color: white;
+}
+@media (max-width:1200px) {
+    .containerProduct {
+        height: 100%;
+        flex-direction: column;
+    }
+    .div11{
+        margin-top: 25px;
+    }
+    .div11{
+        width: 25em;
+        height: 30em;
+        max-width: 80%;
+        padding: 30px; 
+    }
+    .div11 img{
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 15%;
+    }
+    .divSlova h1{
+        font-size: 60px;
+    }
+    .div11 p{
+        margin-top: 10px;
+    }
+    .div11 a{
+        margin-left: 5px;
+    }
+    .div11{
+        margin-bottom: 5px;
+    }
+    .naslov span{
+        font-size: 45px;
+        margin-left: 22%;
+    }
+}
